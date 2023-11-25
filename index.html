@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Hizaron845: Fanático de Brawl Stars y Fang</title>
+  <style>
+    body {
+      background-color: #000;
+      color: gold;
+      font-family: Arial, sans-serif;
+      animation: color-change 10s infinite;
+    }
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .intro {
+      background-color: black;
+      padding: 20px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      animation: slide-up 1s ease-out;
+    }
+    .brawler-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      animation: fade-in 1s ease-out;
+    }
+    .brawler-info img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+    .story {
+      animation: fade-in 1s ease-out;
+    }
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body onclick="PlayAudio()">
+  <audio id="musica1" autoplay controls loop>
+    <source src="audios/1.mp3" type="audio/mpeg">
+    Este navegador no acepta formatos de audio
+  </audio>
+  <script>
+    function PlayAudio() {
+        document.getElementsbyId("musica1").play();
+    }
+  </script>
+  <header>
+    <h1>Hizaron845: Fanático de Brawl Stars y Fang</h1>
+  </header>
+  <div class="container">
+    <div class="intro">
+      <p>Hizaron845, un apasionado jugador de Brawl Stars, ha encontrado en el brawler Fang una fuente de inspiración y dedicación.</p>
+      <p>Nacido en una ciudad pequeña, su amor por los videojuegos lo llevó a adentrarse en el emocionante universo de Brawl Stars, donde descubrió a Fang como su brawler preferido.</p>
+    </div>
+    <div class="brawler-info">
+      <img src="https://static1-es.millenium.gg/articles/7/43/66/7/@/227663-fang-nuevo-brawler-article_cover_bd-1.jpg" alt="Fang en acción">
+      <p>Fang, el brawler favorito de Hizaron845, es conocido por su agilidad y destreza en el campo de batalla. Esta imagen representa la esencia de su pasión por el juego.</p>
+    </div>
+    <div class="story">
+      <h2>La Historia de Hizaron845</h2>
+      <p>Hizaron845 ha participado en numerosos torneos y eventos de Brawl Stars, mostrando su habilidad estratégica y dedicación en cada partida.</p>
+      <p>Su conexión con Fang va más allá de un simple personaje; representa su espíritu competitivo y su determinación por alcanzar la excelencia en cada enfrentamiento.</p>
+    </div>
+  </div>
+</body>
+</html>
